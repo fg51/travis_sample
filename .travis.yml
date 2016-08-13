@@ -7,6 +7,6 @@ install:
   # - pip install .
   - pip install -r requirements.txt -r test-requirements.txt
 
-script: pytest
+script: py.test
 
 
