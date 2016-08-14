@@ -1,4 +1,11 @@
 [run]
 branch = True
-omit = "*/site-packages/*"
+omit = 
+    */python?.?/*
+    */site-packages/*
+
+[report]
+omit =
+    __init__.py
+
 
