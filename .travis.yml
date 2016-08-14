@@ -8,11 +8,11 @@ install:
   # - pip install .
 
 script: 
-  - py.test --cov --cov-config .coveragerc --cov-report html
+  - py.test --cov src --cov-config .coveragerc --cov-report html
   #- coverage run py.test
 
 after_success:
-  - coverage report
   - coveralls
+  # - coverage report
 
 
